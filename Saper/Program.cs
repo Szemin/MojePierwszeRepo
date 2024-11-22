@@ -53,7 +53,7 @@ class Program
                     if (board[y, x] == '*')
 
                     {
-
+                        Console.Clear();
                         Console.WriteLine("Boom! Koniec gry.");
 
                         gameOver = true;
@@ -85,7 +85,7 @@ class Program
                         if (CheckWin(displayBoard, bombCount))
 
                         {
-
+                            Console.Clear();
                             Console.WriteLine("Gratulacje! Wygrałeś!");
 
                             gameOver = true;
@@ -99,7 +99,7 @@ class Program
                 else
 
                 {
-
+                    Console.Clear();
                     Console.WriteLine("Nieprawidłowe współrzędne. Spróbuj ponownie.");
 
                 }
@@ -109,7 +109,7 @@ class Program
             else
 
             {
-
+                Console.Clear();
                 Console.WriteLine("Nieprawidłowe dane wejściowe. Spróbuj ponownie.");
 
             }
@@ -199,7 +199,7 @@ class Program
 
     {
 
-        Console.Clear();
+        
 
         int height = board.GetLength(0);
 
