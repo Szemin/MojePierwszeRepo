@@ -126,7 +126,7 @@ class Program
 
         char[,] board = new char[height, width];
 
-        Random random = /*??*/ //new Random() / new()
+        Random random = new Random();
 
 
 
