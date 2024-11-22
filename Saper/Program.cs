@@ -188,8 +188,8 @@ class Program
 
 
 
-        /*??*/
-        displayBoard; //return
+
+        return displayBoard;
 
     }
 
