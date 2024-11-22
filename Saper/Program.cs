@@ -363,7 +363,7 @@ class Program
 
 
 
-        return uncoveredCount == /* ??*/ *height - bombCount; // width
+        return uncoveredCount == width *height - bombCount; 
 
     }
 
